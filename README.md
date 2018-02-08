@@ -9,5 +9,5 @@ docker build .
 
 
 ```
-docker run  -p 3000:3000 -v $(pwd):/usr/local/docsify docs
+docker run -d -p 3000:3000 -v $(pwd):/usr/local/docsify docs
 ```
